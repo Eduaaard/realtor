@@ -1,5 +1,7 @@
 import React from "react";
 import { StyledProductPage } from "./ProductPage.style";
+import { Link } from "react-router-dom";
+
 
 export const ProductPage = () => {
     return(
@@ -10,7 +12,7 @@ export const ProductPage = () => {
                 </header>
     
                     <nav>
-                        <a href="#">Главная</a>
+                        <Link to={`/`}>Главная</Link> 
                         <a href="#">Каталог</a>
                         <a href="#">Контакты</a>
                     </nav>

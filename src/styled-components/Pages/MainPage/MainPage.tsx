@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledMainPage } from "./MainPage.style";
+import { Link } from "react-router-dom";
 
 export const MainPage = () => {
     return (
@@ -9,11 +10,11 @@ export const MainPage = () => {
             </header>
             
             <nav>
-                <a href="http://localhost:5173/">Главная</a>
-                <a href="http://localhost:5173/Product">Каталог</a>
+                <Link to={`/`}>Главная</Link> 
+                <Link to={`/Product`}>Каталог</Link> 
                 <a href="#">Контакты</a>
             </nav>
-            
+            git commit -m "first commit"
             <main>
                 <h2>Добро пожаловать в наш магазин!</h2>
                 <p>Здесь вы можете найти широкий выбор товаров по доступным ценам.</p>
