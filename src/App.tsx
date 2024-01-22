@@ -14,7 +14,6 @@ const App: React.FC = () => {
     <div className="App">
       <RouterProvider router={routerConfig} />
     </div>
-    // <h1>Hello</h1>
   );
 };
 

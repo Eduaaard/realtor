@@ -1,6 +1,10 @@
+import { Header } from "../../components/UI/Header/Header";
+import { Container } from "../../components/UI/container/Container.style";
 
 export const MainPage = () => {
   return (
-    <h1></h1>
+    <Container>
+      <Header />
+    </Container>
   )
 };
